@@ -15,7 +15,7 @@ body {
   background-color: #222;
   height: 150px;
   padding: 20px;
-  color: white;
+  /* color: white; */
 }
 
 .App-title {
@@ -49,10 +49,59 @@ body {
   cursor: pointer;
 }
 
-.jumbotron {
+.policyminju{
+  position:relative;
+  background:#B2CCFF;
+  width:300px;
+  max-width: 100%;
+  text-align: center;
+  padding: 12px;
+  color:black;
+}
+
+.policyminju:before {
+  content:"";
+  position:absolute;
+  top:0;
+  right:0;
+  border-width:0 16px 16px 0; 
+  border-style:solid;
+  border-color: #FFFFFF #FFFFFF #0054FF #0054FF; 
+  background: #0054FF; 
+  display:block; width:0;   
+}
+
+.policygookhim{
+  position:relative;
+  background:#eb6e58;
+  width:300px;
+  max-width: 100%;
+  text-align: center;
+  padding: 12px;
+  color:black;
+}
+
+.policygookhim:before {
+  content:"";
+  position:absolute;
+  top:0;
+  right:0;
+  border-width:0 16px 16px 0; 
+  border-style:solid;
+  border-color: #FFFFFF #FFFFFF #ff0000 #ff0000; 
+  background: #ff0000; 
+  display:block; width:0;   
+}
+
+
+.votemain {
   padding: 2rem;
   border-radius: 0px;
-  background: white;
+  /* background: white; */
+  background-image: url('https://mblogthumb-phinf.pstatic.net/MjAxNzA1MDFfNDEg/MDAxNDkzNjI0OTkwNDc2.vki_EP8NuVAaWQAl_62p3itf6h11dGlPNF6gk6ysuMAg.zvApGFgIQQY_Q46ll9sKVdHs9XoyUIYCbptcGQSlW3Qg.PNG.designpress2016/2.png?type=w800');
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-color: rgba( 255, 255, 255, 0.2 );
 }
 
 .container {
@@ -66,15 +115,15 @@ body {
   padding-bottom: 2em;
 }
 
-.thor-color {
+.park-color {
   background-color: #7AAFD6;
 }
 
-.cap-color {
+.oh-color {
   background-color: #7B160D;
 }
 
-.panther-color {
+.park2-color {
   background-color: #5D328D;
 }
 

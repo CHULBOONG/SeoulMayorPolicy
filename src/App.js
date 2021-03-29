@@ -37,11 +37,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="jumbotron" style={{'textAlign': 'center'}}>
+        <div className="votemain" style={{'textAlign': 'center'}}>
           <h2>공약으로 알아보는 서울 시장 후보</h2>
           <h4>선호하는 공약의 후보사진을 눌러주세요</h4>
-          <p align="left">{this.question['박'][this.count]}</p>
-          <p align="right">{this.question['오'][this.count]}</p>
+          <p className="policyminju" align="left">{this.question['박'][this.count]}</p>
+          <p className="policygookhim" align="right">{this.question['오'][this.count]}</p>
           <br />
           <div className="icon-set">
             <div className="vote-icon">

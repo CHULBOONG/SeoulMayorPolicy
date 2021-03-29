@@ -53,15 +53,15 @@ class Results extends Component {
       <div className="results-wrapper">
         <span className="label">박영선: {this.votesOneInPercent().toFixed(2) + '%'}</span>
         <div className="progress">
-          <div className="progress-bar thor-color" style={this.votesOneInPercentStyle()}></div>
+          <div className="progress-bar park-color" style={this.votesOneInPercentStyle()}></div>
         </div>
         <span className="label">오세훈: {this.votesTwoInPercent().toFixed(2) + '%'}</span>
         <div className="progress">
-          <div className="progress-bar cap-color" style={this.votesTwoInPercentStyle()}></div>
+          <div className="progress-bar oh-color" style={this.votesTwoInPercentStyle()}></div>
         </div>
         {/* <span className="label">박원순: {this.votesThreeInPercent().toFixed(2) + '%'}</span>
         <div className="progress">
-          <div className="progress-bar panther-color" style={this.votesThreeInPercentStyle()}></div>
+          <div className="progress-bar park2-color" style={this.votesThreeInPercentStyle()}></div>
         </div> */}
       </div>
     )

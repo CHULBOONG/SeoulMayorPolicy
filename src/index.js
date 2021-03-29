@@ -7,7 +7,7 @@ import { createStore } from 'redux';
 import myApp from './reducers';
 import Results from './components/results';
 import Credits from './components/credits';
-import Question from './components/question';
+//import Question from './components/question';
 
 let store = createStore(myApp);
 let count = 0;

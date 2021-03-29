@@ -5,7 +5,7 @@ class Credits extends Component {
     return (
       <div>
         <p>created by: <a href="#">CHULBOONG, All Right Reserved</a></p>
-      </div>
+      </div>//https://github.com/CHULBOONG
     );
   }
 }
