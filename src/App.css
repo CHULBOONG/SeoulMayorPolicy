@@ -50,7 +50,12 @@ body {
 }
 
 .policyminju{
+  @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+  font-family: 'Cute Font', cursive;
+  font-size: x-large;
   position:relative;
+  top: 60px;
+  left: 100px;
   background:#B2CCFF;
   width:300px;
   max-width: 100%;
@@ -72,7 +77,11 @@ body {
 }
 
 .policygookhim{
+  @import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+  font-family: 'Dokdo', cursive;
+  font-size: x-large;
   position:relative;
+  left: 500px;
   background:#eb6e58;
   width:300px;
   max-width: 100%;
@@ -102,6 +111,12 @@ body {
   background-size: 150%;
   background-repeat: no-repeat;
   background-color: rgba( 255, 255, 255, 0.2 );
+}
+.maintitle {
+  @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+  font-family: 'Black Han Sans', sans-serif;
+  border-color: rgb(118, 253, 27); background-color:rgba(255, 214, 29, 0.808);
+
 }
 
 .container {

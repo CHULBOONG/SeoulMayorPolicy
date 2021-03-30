@@ -38,10 +38,12 @@ class App extends Component {
     return (
       <div>
         <div className="votemain" style={{'textAlign': 'center'}}>
+        <div className="maintitle">
           <h2>공약으로 알아보는 서울 시장 후보</h2>
           <h4>선호하는 공약의 후보사진을 눌러주세요</h4>
-          <p className="policyminju" align="left">{this.question['박'][this.count]}</p>
-          <p className="policygookhim" align="right">{this.question['오'][this.count]}</p>
+          </div>
+          <div className="policyminju" >{this.question['박'][this.count]}</div>
+          <div className="policygookhim" >{this.question['오'][this.count]}</div>
           <br />
           <div className="icon-set">
             <div className="vote-icon">
