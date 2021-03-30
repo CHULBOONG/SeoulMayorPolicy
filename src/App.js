@@ -42,6 +42,7 @@ class App extends Component {
           <h2>공약으로 알아보는 서울 시장 후보</h2>
           <h4>선호하는 공약의 후보사진을 눌러주세요</h4>
           </div>
+          <h1 className="questioncount">{this.count}/{this.question['박'].length}</h1>
           <p className="policyminju" >{this.question['박'][this.count]}</p>
           <p className="policygookhim" >{this.question['오'][this.count]}</p>
           <br />
