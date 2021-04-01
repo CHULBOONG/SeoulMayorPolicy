@@ -43,9 +43,9 @@ class App extends Component {
           <h4>선호하는 공약의 후보사진을 눌러주세요</h4>
           </div>
           <h1 className="questioncount">{this.count}/{this.question['박'].length}</h1>
-          <p className="policyminju" >{this.question['박'][this.count]}</p>
-          <p className="policygookhim" >{this.question['오'][this.count]}</p>
-          <br />
+          <span className="policyminju" >{this.question['박'][this.count]}</span>
+          <span className="policygookhim" >{this.question['오'][this.count]}</span>
+          <br /><br />
           <div className="icon-set">
             <div className="vote-icon">
               <img src="https://github.com/CHULBOONG/CHULBOONG/blob/master/parkyoungseon.jpg?raw=true" height="96" alt="1" onClick={this.handleVoteOne}></img>

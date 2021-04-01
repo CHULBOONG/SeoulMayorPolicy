@@ -48,14 +48,19 @@ body {
   height: 100%;
   cursor: pointer;
 }
-
+.questioncount{
+  text-align: center;
+  font-weight: bold;
+  color: Black !important;
+  background-color: #ffff7F
+}
 .policyminju{
   @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
   font-family: 'Cute Font', cursive;
   font-size: x-large;
   position:relative;
-  top: 60px;
-  left: 100px;
+  display: inline-block;
+  width: 400px;
   background:#B2CCFF;
   width:300px;
   max-width: 100%;
@@ -81,7 +86,8 @@ body {
   font-family: 'Dokdo', cursive;
   font-size: x-large;
   position:relative;
-  left: 500px;
+  display: inline-block;
+  width: 400px;
   background:#eb6e58;
   width:300px;
   max-width: 100%;
